@@ -1,0 +1,31 @@
+import java.util.*;
+import java.io.*;
+import java.math.*;
+
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ **/
+class Solution {
+
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        int M = in.nextInt();
+        int a=0;
+        for (int i = 0; i < N; i++) {
+            String catName = in.next();
+            int b = in.nextInt();
+            int d = in.nextInt();
+            if(M>=b&&M<d)
+            a+=1;
+            //System.out.println(N);
+        }
+        System.out.println(a);
+
+        // Write an answer using System.out.println()
+        // To debug: System.err.println("Debug messages...");
+
+       // System.out.println("1");
+    }
+}
